@@ -52,7 +52,7 @@ body {
   }
 
   .headingH1BoldDesktop {
-    @apply font-bold text-5xl text-neutral-900 leading-[48px] -tracking-[0.02em];
+    @apply font-bold text-[40px] text-neutral-900 leading-[48px] -tracking-[0.02em];
   }
 
   .headingH1ExtraBoldDesktop {

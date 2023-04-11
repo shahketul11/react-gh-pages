@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
-  // content: [],
-  content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}", './src/**/*.{html,js,jsx}',"./input.{css,js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
       "2xl": { max: "1535px" },
@@ -125,5 +123,4 @@ module.exports = {
     },
   },
   plugins: [],
-  corePlugins: require('tailwind-rn/unsupported-core-plugins'),
-}
+};
